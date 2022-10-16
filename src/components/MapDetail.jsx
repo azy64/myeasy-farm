@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import MapEnhanced from './Map';
 
 function MapDetail({ close, target }) {
   console.log('id', target);
@@ -17,7 +18,7 @@ function MapDetail({ close, target }) {
             X
           </span>
         </div>
-        MapDetail
+        <MapEnhanced target={target} />
       </div>
     </div>
 
