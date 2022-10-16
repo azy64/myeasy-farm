@@ -31,7 +31,7 @@ This project is about making a small map web application with the following requ
   
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://mef-app.herokuapp.com/map)
 
 
 ## Getting Started
