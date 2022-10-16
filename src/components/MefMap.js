@@ -23,7 +23,7 @@ function MefMap(props) {
       <MapContainer
         center={items[0].center}
         zoom={13}
-        scrollWheelZoom={false}
+        scrollWheelZoom
         style={{ width: '100%', height: '100vh' }}
       >
         <TileLayer
