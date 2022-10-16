@@ -32,15 +32,17 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
 /**
 *css pour le header
 */
-.header{
-  width:97.59%;
+.header {
+  width: 97.59%;
   height: 20%;
   display: grid;
   grid-template-columns: 20% 80%;
@@ -72,11 +74,11 @@
   border-radius: 10px;
 }
 
-.start:hover{
+.start:hover {
   background-color: #f7931e;
 }
 
-.window{
+.window {
   position: fixed;
   left: 0;
   top: 0;
@@ -91,8 +93,7 @@
   width: 90%;
   height: 80vh;
   margin: auto;
-  margin-top:3%;
-  border: 10px soild #f7931e;
+  margin-top: 3%;
 }
 
 .close {
@@ -115,18 +116,17 @@
   text-align: end;
 }
 
-@media screen and (max-width:700px) {
-  
-  .header{
-    width:98.5%;
+@media screen and (max-width: 700px) {
+  .header {
+    width: 98.5%;
     display: grid;
     grid-template-columns: 100%;
     background-color: white;
     padding: 0 !important;
     padding-top: 15px !important;
   }
-  
-  .header div a{
+
+  .header div a {
     display: block !important;
     width: 60%;
     margin: auto;
