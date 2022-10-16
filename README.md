@@ -1,23 +1,59 @@
-# Getting Started with Create React App
+# <img src='./public/2-logo.png' width="120" alt="logo"/> MyEasy Farm Test 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is about making a small map web application with the following requirements:
+- An app should have a welcome screen with a start button at the very center of the page;
+- After clicking on the start you should be presented with the map, where fields (from partfield.json) are displayed;
+- You should be able to click on the field and see a list of available maps for this field;
+- You should be able to click on a map to preview it;
+- During preview app should focus (zoom/center) on the map you are previewing;
+- You should be able to exit the preview screen by clicking on the close button;
+- Maps should either use predefined colors or be colorized based on the value;
+- On the top left corner the logo should always be visible.
 
-## Available Scripts
 
-In the project directory, you can run:
+ ## Input:
+- 2 files with responses from the server (a subset of fields and a subset of soil maps);
+- logo and colors guidance;
+- UX sketch;
+- reference screenshots from the real app, showing some of the maps and fields.
 
-### `yarn start`
 
+![screenshot](./s1.png)
+![screenshot](./s2.png)
+![screenshot](./s3.png)
+
+
+## Built With
+
+- React
+- Typescript
+- React-Leaflet
+  
+## Live Demo
+
+[Live Demo Link](https://livedemo.com)
+
+
+## Getting Started
+
+To get a local copy up and running follow these simple example steps.
+
+1  `
+git clone https://github.com/azy64/myeasy-farm.git
+`
+<br/>
+2  `
+yarn 
+`
+<br/>
+3  `
+yarn start
+`
+<br>
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Prerequisites
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `yarn build`
 
@@ -29,42 +65,29 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `yarn eject`
+## Authors
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+👤 **Author**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- GitHub: [@Azy64](https://github.com/azy64)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/azaria-saidi-524780112/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🤝 Contributing
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Contributions, issues, and feature requests are welcome!
 
-## Learn More
+Feel free to check the [issues page](../../issues/).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Show your support
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Give a ⭐️ if you like this project!
 
-### Code Splitting
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
 
-### Analyzing the Bundle Size
+## 📝 License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is [MIT](./MIT.md) licensed.
