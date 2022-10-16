@@ -1,10 +1,14 @@
 import React from 'react';
-import fields from '../data/1-partfields.json';
+import MefMap from './MefMap';
 
 function DisplayMap() {
-  console.log(fields);
   return (
-    <div>DisplayMap</div>
+    <div style={{
+      width: '80%', height: '70vh', margin: 'auto', border: '8px solid #f7931e', overflow: 'hidden',
+    }}
+    >
+      <MefMap />
+    </div>
   );
 }
 
